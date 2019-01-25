@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <VuMark size="0.247 0.173" name="tarmac" />
+  </Tracking>
+</QCARConfig>
+
+<QCARConfig>
+<Tracking>
+  <VuMark name="VuMark_PC" size="2.0 1.81554868014" />
+</Tracking>
+</QCARConfig>

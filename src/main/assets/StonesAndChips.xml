@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<QCARConfig xsi:noNamespaceSchemaLocation="qcar_config.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Tracking>
+        <VuMark name="stones" size="0.247 0.173"/>
+        <VuMark name="chips" size="0.247 0.173"/>
+    </Tracking>
+</QCARConfig>
+
+<QCARConfig>
+<Tracking>
+    <VuMark name="VuMark_PC" size="2.0 1.81554868014" />
+</Tracking>
+</QCARConfig>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <VuMark name="VuMark_PC" size="2.0 1.81554868014" />
+        <VuMark name="ACAH_AR" size="0.080000 0.080000"/>
+        <VuMark name="test.Top" size="0.080000 0.080000"/>
+        <VuMark name="test.Left" size="0.080000 1.080000"/>
+        <VuMark name="test.Right" size="0.080000 1.080000"/>
+        <VuMark name="test.Bottom" size="0.080000 0.080000"/>
+        <VuMark name="test.Back" size="0.080000 0.080000"/>
+        <VuMark name="test.Front" size="0.080000 0.080000"/>
+        <MultiTarget name="test">
+            <Part name="test.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="test.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="test.Front" translation="0 0 1.0" rotation="AD: 1 0 0 0"/>
+            <Part name="test.Back" translation="0 0 -1.0" rotation="AD: 0 1 0 180"/>
+            <Part name="test.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="test.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/product_back_ground"
+    android:orientation="vertical"
+    android:id="@+id/root_LinearLayout">
+
+    <!--商品情報テーブル-->
+    <!--<TableLayout
+        android:id="@+id/product_table"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TableLayout>-->
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/other_review"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/watch_review"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            />
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_comment"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:id="@+id/icon_comment"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

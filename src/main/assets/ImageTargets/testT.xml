@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QCARConfig>
+    <Tracking>
+        <VuMark name="VuMark_PC" size="2.0 1.81554868014" />
+        <VuMark name="ACAH_AR" size="5.080000 5.080000"/>
+        <VuMark name="test.Top" size="5.080000 5.080000"/>
+        <VuMark name="test.Left" size="5.080000 5.080000"/>
+        <VuMark name="test.Right" size="5.080000 5.080000"/>
+        <VuMark name="test.Bottom" size="5.080000 5.080000"/>
+        <VuMark name="test.Back" size="5.080000 5.080000"/>
+        <VuMark name="test.Front" size="5.080000 5.080000"/>
+        <MultiTarget name="test">
+            <Part name="test.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="test.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="test.Front" translation="0 0 1.0" rotation="AD: 1 0 0 0"/>
+            <Part name="test.Back" translation="0 0 -1.0" rotation="AD: 0 1 0 180"/>
+            <Part name="test.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="test.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
+
+<QCARConfig xsi:noNamespaceSchemaLocation="qcar_config.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Tracking>
+    <VuMark name="stones" size="5.247 5.173"/>
+    <VuMark name="chips" size="5.247 5.173"/>
+</Tracking>
+</QCARConfig>
+
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+<Tracking>
+    <VuMark size="5.247 5.173" name="tarmac" />
+</Tracking>
+</QCARConfig>

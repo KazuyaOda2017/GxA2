@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <ImageView 
+        android:id="@+id/splash_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+		android:background="@color/GRAY"
+        android:contentDescription="@string/splash_screen_description"
+        />
+
+    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:baselineAligned="false"
+        >
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="35" />
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="62"
+
+			>
+
+			<ImageView
+				android:id="@+id/logo_image"
+				android:layout_width="match_parent"
+				android:layout_height="25dp"
+				android:layout_gravity="center"
+				android:contentDescription="@string/splash_screen_description"
+				android:scaleType="centerInside"
+				android:src="@drawable/sprush_force" />
+
+		</RelativeLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="50" />
+
+
+	</LinearLayout>
+
+</RelativeLayout>
